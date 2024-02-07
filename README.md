@@ -33,19 +33,6 @@ Spring Part에서 진행되는 과제는, 여러분들께서 Prography에서 프
 - **JPA를 활용하며, ddl-auto 속성은 create 를 사용합니다.**
 - **각 Entity에 대한 delete는 soft-delete/hard-delete 에 대해 자유롭게 개발합니다.**
 
-# 3. 과제 제출 방식
-**과제 완료일자(2024년2월3일(토요일)자정)까지 아래 메일로 전송해주셔야 합니다.**   
-**메일 전송시 아래 노션링크를 참고하여, 본인의 프로젝트를 jar파일로 빌드 후 구글 드라이브에 업로드 후 링크를 입력해주세요.**   
-구글 드라이브 업로드 방법 : https://prography-admin.notion.site/Google-Drive-ef7eca6451434af58d0b3fcd0867291c?pvs=4   
-**2024년 2월 3일 자정을 넘겨서 수신된 메일에 대해서는 평가되지 않으며, 과제전형 불합격으로 처리되니 꼭 시간에 맞춰서 제출하시길 바랍니다.**   
-또한, 다른 part에서도 동일한 메일주소로 과제를 제출하여 혼동될 수 있으니, 메일제목은 꼭 정해진 규격으로 작성하여 제출하시길 바랍니다.   
-- 메일 주소 : contact.prography@gmail.com   
-- 메일 제목 : \[Prography9기] Spring-이름-핸드폰번호뒷자리   
-ex. \[Prography9기] Spring-문범우-6809   
-- 파일 제목 : spring-이름-핸드폰번호   
-ex. spring-문범우-01029356809
-
-
 # 4. 과제 채점 방식
 과제에 대한 채점은 별도 개발되어 있는 자동화 채점 코드를 통해 채점됩니다.   
 여러분이 제출해주신 jar파일을 docker로 빌드하여, 요청을 보내고 기대하는 응답값이 오는지를 판단하여 진행됩니다.   
@@ -549,18 +536,3 @@ curl -X GET http://localhost:8080/user?size=10&page=0
   }
 }
 ```
-
-# 8. 기타 문의 사항
-**안내되어있는 내용 이외의 문의사항은 issue를 통해 등록해주세요.**   
-Prography 9기 모집과 관련된 내용은 아래 페이지를 참고해주세요.   
-[프로그라피 9기 모집 상세페이지](https://kko.to/apply-prography9)   
-
-
-### 프로그라기 9기 모집에 지원해주셔서, 진심으로 감사드립니다.   
-### 2024년, 함께 활동할 여러분들을 위해서 매니저 모두가 최선을 다하겠습니다.   
-### 감사합니다.
-
-**Prograhy.**   
-contact.prography@gmail.com   
-Homepage : [https://prography.org/](https://prography.org/)   
-Instagram: [https://www.instagram.com/prography_official](https://www.instagram.com/prography_official)
